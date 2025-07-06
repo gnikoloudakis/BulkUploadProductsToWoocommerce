@@ -2,10 +2,12 @@ from enum import Enum
 
 
 class Categories(int, Enum):
-    T_SHIRTS = 25
-    GAMES = 29
-    MOVIES = 26
-    MUSIC = 30
-    SCIENCE = 28
-    SERIES = 27
-    ECO = 31
+    CRANKY = 97
+    T_SHIRTS = 71
+    GAMES = 98
+    MOVIES = 99
+    MUSIC = 100
+    SCIENCE = 101
+    SERIES = 102
+    ECO = 96
+    FUCK_UP_NIGHTS = 95

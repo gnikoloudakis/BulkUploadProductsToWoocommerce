@@ -1,12 +1,12 @@
 # Define attributes (must already exist in WooCommerce or be created via API)
 from categories import Categories
 
-image_url = "https://cranky.cranky.gr/wp-content/uploads/2025/06"
+image_url = "https://cranky.cranky.gr/wp-content/uploads"
 attributes = [
     {
         "name": "Size",
         "variation": True,
-        "options": ["S", "M", "L"]
+        "options": ["S", "M", "L", "XL", "2XL"]
     },
     {
         "name": "Color",
@@ -35,10 +35,12 @@ products = [
         "short_description": "“Logic is only the beginning.” Inspired by Spock’s timeless wisdom, this eco-conscious tee is a salute to intellect, calm under pressure, and boldly going with style.",
         "status": "publish",
         "categories": [
-            {"id": Categories.T_SHIRTS},  
-            {"id": Categories.MOVIES},  
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
+            {"id": Categories.T_SHIRTS},
+            {"id": Categories.MOVIES},
         ],
-        "images": [{"src": f"{image_url}/81.jpg"}],
+        "images": [{"src": f"{image_url}/2025/06/81.jpg"}],
         "attributes": attributes
     },
     {
@@ -49,13 +51,15 @@ products = [
         "short_description": "Δεν έχεις καμία πραγματική δύναμη… μόνο αυτό που πιστεύουν οι άλλοι. Μια οικολογική μπλούζα εμπνευσμένη από το Wicked, για όσους ξέρουν ότι η αλήθεια πίσω από τη μαγεία δεν είναι πάντα αυτό που φαίνεται.",
         "status": "publish",
         "categories": [
-            {"id": Categories.T_SHIRTS},  
-            {"id": Categories.MOVIES},  
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
+            {"id": Categories.T_SHIRTS},
+            {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/1.jpg"},
-            {"src": f"{image_url}/2.jpg"},
-                   ],
+            {"src": f"{image_url}/2025/06/1.jpg"},
+            {"src": f"{image_url}/2025/06/2.jpg"},
+        ],
         "attributes": attributes
     },
     {
@@ -66,11 +70,13 @@ products = [
         "short_description": "Αν ο Γκάνταλφ είχε T-shirt, θα φορούσε αυτό. Για ήρωες που τρέχουν από τον Μπαλρόγκ και δεν ξεχνούν να σώσουν τον πλανήτη με βιώσιμο στυλ.",
         "status": "publish",
         "categories": [
-            {"id": Categories.T_SHIRTS},  
-            {"id": Categories.MOVIES},  
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
+            {"id": Categories.T_SHIRTS},
+            {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/8.jpg"},
+            {"src": f"{image_url}/2025/06/8.jpg"},
         ],
         "attributes": attributes
     },
@@ -82,12 +88,14 @@ products = [
         "short_description": "Αυτή η μπλούζα είναι το χάος με στιλ — για θεούς που ξέρουν τι θέλουν.",
         "status": "publish",
         "categories": [
-            {"id": Categories.T_SHIRTS},  
-            {"id": Categories.MOVIES},  
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
+            {"id": Categories.T_SHIRTS},
+            {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/9.jpg"},
-            {"src": f"{image_url}/90.jpg"},
+            {"src": f"{image_url}/2025/06/9.jpg"},
+            {"src": f"{image_url}/2025/06/90.jpg"},
         ],
         "attributes": attributes
     },
@@ -99,11 +107,13 @@ products = [
         "short_description": "Ο Homer πετάει ψηλά — χωρίς φανέλα, με ντόνατ στο χέρι και στυλ θρύλου. Μια μπλούζα για όσους αγαπούν το ακραίο και το αστείο, φτιαγμένη με 100% οργανικό βαμβάκι.",
         "status": "publish",
         "categories": [
-            {"id": Categories.T_SHIRTS},  
-            {"id": Categories.SERIES},  
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
+            {"id": Categories.T_SHIRTS},
+            {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/82.jpg"},
+            {"src": f"{image_url}/2025/06/82.jpg"},
         ],
         "attributes": attributes
     },
@@ -115,12 +125,14 @@ products = [
         "short_description": "Για όσους δεν κουράζονται ποτέ… εκτός από όταν λείπει ο καφές. Και η μπλούζα; 100% οργανική, για ατελείωτο στυλ χωρίς ενοχές.",
         "status": "publish",
         "categories": [
-            {"id": Categories.T_SHIRTS},  
-            {"id": Categories.MOVIES},  
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
+            {"id": Categories.T_SHIRTS},
+            {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/3.jpg"},
-            {"src": f"{image_url}/4.jpg"},
+            {"src": f"{image_url}/2025/06/3.jpg"},
+            {"src": f"{image_url}/2025/06/4.jpg"},
         ],
         "attributes": attributes
     },
@@ -132,11 +144,13 @@ products = [
         "short_description": "Το μόνο έγκλημα στον πόλεμο είναι να χάσεις — οπότε φρόντισε να φοράς σωστή πανοπλία (ή μπλούζα). Για όσους παίζουν σκληρά, αλλά ξέρουν και να το κάνουν με στιλ.",
         "status": "publish",
         "categories": [
-            {"id": Categories.T_SHIRTS},  
-            {"id": Categories.SERIES},  
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
+            {"id": Categories.T_SHIRTS},
+            {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/5.jpg"},
+            {"src": f"{image_url}/2025/06/5.jpg"},
         ],
         "attributes": attributes
     },
@@ -148,11 +162,13 @@ products = [
         "short_description": "Μην ζητάς συγγνώμη, γίνε καλύτερος! Μπλούζα για όσους προτιμούν τις πράξεις αντί για λόγια — με στιλ και οικολογική συνείδηση.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.GAMES},
         ],
         "images": [
-            {"src": f"{image_url}/91.jpg"},
+            {"src": f"{image_url}/2025/06/91.jpg"},
         ],
         "attributes": attributes
     },
@@ -164,11 +180,13 @@ products = [
         "short_description": "Bro Mitzvah: η ιερή μετάβαση από bro... σε legendary bro. Μπλούζα για σοβαρές τελετές, επικές φάρσες και όσους παίρνουν το bromance με στιλ — και οργανικό βαμβάκι.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/89.jpg"},
+            {"src": f"{image_url}/2025/06/89.jpg"},
         ],
         "attributes": attributes
     },
@@ -180,11 +198,13 @@ products = [
         "short_description": "Είσαι ένας χαμένος… αλλά με φοβερό T-shirt! Για φωνές μέσα στο κεφάλι σου που έχουν άποψη — και οικολογική συνείδηση.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/36.jpg"},
+            {"src": f"{image_url}/2025/06/36.jpg"},
         ],
         "attributes": attributes
     },
@@ -196,12 +216,14 @@ products = [
         "short_description": "Αύριο κατακτούμε τον κόσμο. Σήμερα κάνουμε πρόβα με μπλούζα. Ιδανική για μυστικά σχέδια, κακές προθέσεις και καλές οικολογικές επιλογές.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/24.jpg"},
-            {"src": f"{image_url}/25.jpg"},
+            {"src": f"{image_url}/2025/06/24.jpg"},
+            {"src": f"{image_url}/2025/06/25.jpg"},
         ],
         "attributes": attributes
     },
@@ -213,11 +235,13 @@ products = [
         "short_description": "Εσύ… εσύ… με ολοκληρώνεις. Και η μπλούζα επίσης. Για χαοτικούς ρομαντικούς, θεότρελες ισορροπίες και 100% οργανικό χάος με στιλ.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/88.jpg"},
+            {"src": f"{image_url}/2025/06/88.jpg"},
         ],
         "attributes": attributes
     },
@@ -229,11 +253,13 @@ products = [
         "short_description": "…και στο σκοτάδι θα τους δέσει. Ή απλώς θα τραβήξει όλα τα βλέμματα. Μπλούζα για μυστηριώδεις ψυχές, σκοτεινή αισθητική και βιώσιμο στιλ που λάμπει από μόνο του.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/77.jpg"},
+            {"src": f"{image_url}/2025/06/77.jpg"},
         ],
         "attributes": attributes
     },
@@ -245,11 +271,13 @@ products = [
         "short_description": "Red Man Walking: Όταν ο θυμός βγαίνει βόλτα. Μπλούζα για ήρεμους ανθρώπους… μέχρι να μην είναι. 100% οργανικό βαμβάκι για εκρήξεις με οικολογική συνείδηση.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/83.jpg"},
+            {"src": f"{image_url}/2025/06/83.jpg"},
         ],
         "attributes": attributes
     },
@@ -261,11 +289,13 @@ products = [
         "short_description": "Όχι γιατί έχεις υπερδυνάμεις, αλλά γιατί κάποιος πρέπει να φέρει τους καφέδες. Μπλούζα για ηρωικές εμφανίσεις στο γραφείο ή το περίπτερο.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/84.jpg"},
+            {"src": f"{image_url}/2025/06/84.jpg"},
         ],
         "attributes": attributes
     },
@@ -277,11 +307,13 @@ products = [
         "short_description": "Όταν οι καλές προθέσεις δεν φτάνουν, η παρουσία σου μιλάει πιο δυνατά από λόγια — και η μπλούζα είναι 100% οργανική για να μην έχεις δικαιολογίες.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/34.jpg"},
+            {"src": f"{image_url}/2025/06/34.jpg"},
         ],
         "attributes": attributes
     },
@@ -293,11 +325,13 @@ products = [
         "short_description": "Εκεί όπου οι σκέψεις γίνονται βαριές, το στυλ σκοτεινό και το οργανικό βαμβάκι... φωτεινό (για να μη σε πιάσουν στον ύπνο).",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/80.jpg"},
+            {"src": f"{image_url}/2025/06/80.jpg"},
         ],
         "attributes": attributes
     },
@@ -309,12 +343,14 @@ products = [
         "short_description": "Για όσους πίνουν σαν αθάνατοι — ή τουλάχιστον προσπαθούν. Μπλούζα για χαλαρές βραδιές και οργανικό στυλ χωρίς expiry date.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/13.jpg"},
-            {"src": f"{image_url}/92.jpg"},
+            {"src": f"{image_url}/2025/06/13.jpg"},
+            {"src": f"{image_url}/2025/06/92.jpg"},
         ],
         "attributes": attributes
     },
@@ -326,11 +362,13 @@ products = [
         "short_description": "Η μπλούζα για όσους ζουν μεγάλες στιγμές — στο μυαλό τους. Ιδανική για όσους ξέρουν να πουλάνε καλά τα παραμύθια τους.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/63.jpg"},
+            {"src": f"{image_url}/2025/06/63.jpg"},
         ],
         "attributes": attributes
     },
@@ -342,12 +380,14 @@ products = [
         "short_description": "Δύο ουρές, διπλή φασαρία. Για όσους δεν φοβούνται να ξεχωρίσουν — ή να μπερδέψουν τα πάντα γύρω τους.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/55.jpg"},
-            {"src": f"{image_url}/56.jpg"},
+            {"src": f"{image_url}/2025/06/55.jpg"},
+            {"src": f"{image_url}/2025/06/56.jpg"},
         ],
         "attributes": attributes
     },
@@ -359,12 +399,14 @@ products = [
         "short_description": "Πάρε δύο ουρές, φτιάξε λεμονάδα και κάνε τους άλλους να αναρωτιούνται τι ακριβώς συμβαίνει. (Και να ζηλεύουν λίγο.)",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/53.jpg"},
-            {"src": f"{image_url}/54.jpg"},
+            {"src": f"{image_url}/2025/06/53.jpg"},
+            {"src": f"{image_url}/2025/06/54.jpg"},
         ],
         "attributes": attributes
     },
@@ -376,12 +418,14 @@ products = [
         "short_description": "Για όσους κινούνται με τη δική τους ταχύτητα — και προτιμούν να το κάνουν με στιλ και 100% οργανικό βαμβάκι.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/52.jpg"},
-            {"src": f"{image_url}/51.jpg"},
+            {"src": f"{image_url}/2025/06/52.jpg"},
+            {"src": f"{image_url}/2025/06/51.jpg"},
         ],
         "attributes": attributes
     },
@@ -393,11 +437,13 @@ products = [
         "short_description": "Γιατί μερικές φορές το να είσαι ο κακός είναι απλώς πιο διασκεδαστικό — και τουλάχιστον η μπλούζα σου είναι 100% οργανική.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/59.jpg"},
+            {"src": f"{image_url}/2025/06/59.jpg"},
         ],
         "attributes": attributes
     },
@@ -409,12 +455,14 @@ products = [
         "short_description": "Όταν η υπομονή τελειώνει αλλά το στυλ δεν εγκαταλείπει ποτέ. Ιδανική μπλούζα για μέρες που θέλεις να το δείξεις... με οργανικό τρόπο.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/49.jpg"},
-            {"src": f"{image_url}/50.jpg"},
+            {"src": f"{image_url}/2025/06/49.jpg"},
+            {"src": f"{image_url}/2025/06/50.jpg"},
         ],
         "attributes": attributes
     },
@@ -426,12 +474,14 @@ products = [
         "short_description": "Όταν θες χώρο, αλλά όχι τόσο πολύ ώστε να χάσεις το στιλ σου. Ιδανική για ντροπαλούς με… οικολογική συνείδηση.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/47.jpg"},
-            {"src": f"{image_url}/48.jpg"},
+            {"src": f"{image_url}/2025/06/47.jpg"},
+            {"src": f"{image_url}/2025/06/48.jpg"},
         ],
         "attributes": attributes
     },
@@ -443,11 +493,13 @@ products = [
         "short_description": "Για τις στιγμές που η υπομονή τελειώνει, αλλά το στιλ παραμένει – κι ας φύγουν όλοι μακριά.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/61.jpg"},
+            {"src": f"{image_url}/2025/06/61.jpg"},
         ],
         "attributes": attributes
     },
@@ -459,12 +511,14 @@ products = [
         "short_description": "Η ιδανική μπλούζα για όσους ξυπνούν με διάθεση... να βάλουν τα πράγματα στη θέση τους — με χιούμορ και στυλ.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/45.jpg"},
-            {"src": f"{image_url}/46.jpg"},
+            {"src": f"{image_url}/2025/06/45.jpg"},
+            {"src": f"{image_url}/2025/06/46.jpg"},
         ],
         "attributes": attributes
     },
@@ -476,12 +530,14 @@ products = [
         "short_description": "Όταν το γραφείο γίνεται πεδίο μάχης και εσύ απλώς προσπαθείς να βγεις ζωντανός — με στιλ που αντέχει κάθε έκρηξη.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/26.jpg"},
-            {"src": f"{image_url}/27.jpg"},
+            {"src": f"{image_url}/2025/06/26.jpg"},
+            {"src": f"{image_url}/2025/06/27.jpg"},
         ],
         "attributes": attributes
     },
@@ -493,11 +549,13 @@ products = [
         "short_description": "Για όσους γνωρίζουν πως το σκοτάδι δεν είναι απλώς μια λέξη — είναι εμπειρία.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/68.jpg"},
+            {"src": f"{image_url}/2025/06/68.jpg"},
         ],
         "attributes": attributes
     },
@@ -509,11 +567,13 @@ products = [
         "short_description": "Όταν το χάος μπαίνει στο σπίτι και πρέπει να βρεις τον ένοχο — ακόμα κι αν είναι ο ίδιος σου ο εαυτός.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/28.jpg"},
+            {"src": f"{image_url}/2025/06/28.jpg"},
         ],
         "attributes": attributes
     },
@@ -525,11 +585,13 @@ products = [
         "short_description": "Μια υπενθύμιση ότι το μέλλον κουβαλάει τις σκιές του παρελθόντος — για όσους σκέφτονται πέρα από το τώρα.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/29.jpg"},
+            {"src": f"{image_url}/2025/06/29.jpg"},
         ],
         "attributes": attributes
     },
@@ -541,11 +603,13 @@ products = [
         "short_description": "Όταν η αρχαία σοφία συναντά το μοντέρνο στιλ — ιδανική για ταξιδιώτες μεταξύ κόσμων.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.GAMES},
         ],
         "images": [
-            {"src": f"{image_url}/72.jpg"},
+            {"src": f"{image_url}/2025/06/72.jpg"},
         ],
         "attributes": attributes
     },
@@ -557,11 +621,13 @@ products = [
         "short_description": "Για όσους δεν υποχωρούν ποτέ — μαχητές με καρδιά και στιλ που ξεχωρίζει.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.GAMES},
         ],
         "images": [
-            {"src": f"{image_url}/73.jpg"},
+            {"src": f"{image_url}/2025/06/73.jpg"},
         ],
         "attributes": attributes
     },
@@ -573,11 +639,13 @@ products = [
         "short_description": "Η μελωδία που ταξιδεύει μέσα στο χρόνο — για όσους αγαπούν να γράφουν τη δική τους ιστορία με κάθε νότα.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.GAMES},
         ],
         "images": [
-            {"src": f"{image_url}/71.jpg"},
+            {"src": f"{image_url}/2025/06/71.jpg"},
         ],
         "attributes": attributes
     },
@@ -589,12 +657,14 @@ products = [
         "short_description": "Φωτιά, νερό, γη και… λίγο χάος. Για όσους ξέρουν να παίζουν με τις δυνάμεις της φύσης χωρίς να καίνε το σπίτι.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.GAMES},
         ],
         "images": [
-            {"src": f"{image_url}/21.jpg"},
-            {"src": f"{image_url}/22.jpg"},
+            {"src": f"{image_url}/2025/06/21.jpg"},
+            {"src": f"{image_url}/2025/06/22.jpg"},
         ],
         "attributes": attributes
     },
@@ -606,12 +676,14 @@ products = [
         "short_description": "Γιατί λίγο παραπάνω πόνος δεν έβλαψε ποτέ κανέναν — ιδανικό για παίκτες που ξέρουν να χτυπάνε με στιλ.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.GAMES},
         ],
         "images": [
-            {"src": f"{image_url}/7.jpg"},
-            {"src": f"{image_url}/86.jpg"},
+            {"src": f"{image_url}/2025/06/7.jpg"},
+            {"src": f"{image_url}/2025/06/86.jpg"},
         ],
         "attributes": attributes
     },
@@ -623,12 +695,14 @@ products = [
         "short_description": "Μια μικρή δόση ζωής — για όσους ξέρουν ότι κάθε καρδιά μετράει… ακόμα και η πιο μικρή.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.GAMES},
         ],
         "images": [
-            {"src": f"{image_url}/6.jpg"},
-            {"src": f"{image_url}/93.jpg"},
+            {"src": f"{image_url}/2025/06/6.jpg"},
+            {"src": f"{image_url}/2025/06/93.jpg"},
         ],
         "attributes": attributes
     },
@@ -640,11 +714,13 @@ products = [
         "short_description": "Η παλιά αλήθεια που δεν ξεχνιέται — γιατί μερικές φορές η ζωή χτυπά με κόκκινο χρώμα.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/37.jpg"},
+            {"src": f"{image_url}/2025/06/37.jpg"},
         ],
         "attributes": attributes
     },
@@ -656,11 +732,13 @@ products = [
         "short_description": "Η ιδανική φανέλα για όσους στηρίζουν την πιο... ραδιενεργή ομάδα της πόλης.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/94.jpg"},
+            {"src": f"{image_url}/2025/06/94.jpg"},
         ],
         "attributes": attributes
     },
@@ -672,11 +750,13 @@ products = [
         "short_description": "Για όσους ζουν τη ζωή κρεμασμένοι ανάποδα — και πάντα τυλίγουν τα πράγματα σε… μπελάδες.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/74.jpg"},
+            {"src": f"{image_url}/2025/06/74.jpg"},
         ],
         "attributes": attributes
     },
@@ -688,11 +768,13 @@ products = [
         "short_description": "Για εκείνους που δεν ξέρουν τι κάνουν, αλλά το κάνουν με απίστευτο στυλ — ο ήρωας που όλοι χρειαζόμαστε (ή φοβόμαστε).",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/75.jpg"},
+            {"src": f"{image_url}/2025/06/75.jpg"},
         ],
         "attributes": attributes
     },
@@ -704,11 +786,13 @@ products = [
         "short_description": "Όταν κάθε λεπτομέρεια μετράει και το παρελθόν δεν ξεχνιέται εύκολα.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/5.jpg"},
+            {"src": f"{image_url}/2025/06/5.jpg"},
         ],
         "attributes": attributes
     },
@@ -720,12 +804,14 @@ products = [
         "short_description": "Η φωνή που βγαίνει όταν ακόμα και οι πιο δυνατοί δεν μπορούν να κρύψουν την απογοήτευσή τους.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/16.jpg"},
-            {"src": f"{image_url}/17.jpg"},
+            {"src": f"{image_url}/2025/06/16.jpg"},
+            {"src": f"{image_url}/2025/06/17.jpg"},
         ],
         "attributes": attributes
     },
@@ -737,12 +823,14 @@ products = [
         "short_description": "Όταν κάνεις ό,τι σου λένε… αλλά μέσα σου ξέρεις ότι έχεις ήδη κάνει όλη τη δουλειά.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/95.jpg"},
-            {"src": f"{image_url}/96.jpg"},
+            {"src": f"{image_url}/2025/06/95.jpg"},
+            {"src": f"{image_url}/2025/06/96.jpg"},
         ],
         "attributes": attributes
     },
@@ -754,11 +842,13 @@ products = [
         "short_description": "Όταν ο σκοτεινός άρχοντας αποφασίζει ότι η ισχύς χρειάζεται και στυλ — επίσημος τρόπος καταστροφής.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/18.jpg"},
+            {"src": f"{image_url}/2025/06/18.jpg"},
         ],
         "attributes": attributes
     },
@@ -770,11 +860,13 @@ products = [
         "short_description": "Για εκείνες τις στιγμές που προσπαθείς να λύσεις τα ίδια προβλήματα ξανά και ξανά — αλλά τουλάχιστον το κάνεις με στυλ.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/97.jpg"},
+            {"src": f"{image_url}/2025/06/97.jpg"},
         ],
         "attributes": attributes
     },
@@ -786,11 +878,13 @@ products = [
         "short_description": "Για όσους ξέρουν ότι η μόνη γωνία που μετράει είναι αυτή που σε κάνει να πετύχεις.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SCIENCE},
         ],
         "images": [
-            {"src": f"{image_url}/10.jpg"},
+            {"src": f"{image_url}/2025/06/10.jpg"},
         ],
         "attributes": attributes
     },
@@ -802,11 +896,13 @@ products = [
         "short_description": "Για όσους αγαπούν να πετούν δύσκολες λέξεις, χωρίς να καταλαβαίνουν και πολλά — αλλά πάντα με στυλ.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SCIENCE},
         ],
         "images": [
-            {"src": f"{image_url}/11.jpg"},
+            {"src": f"{image_url}/2025/06/11.jpg"},
         ],
         "attributes": attributes
     },
@@ -818,11 +914,13 @@ products = [
         "short_description": "Για όσους ξέρουν ότι μερικές φορές οι νόμοι της φύσης απλά δεν κάνουν διακρίσεις.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SCIENCE},
         ],
         "images": [
-            {"src": f"{image_url}/12.jpg"},
+            {"src": f"{image_url}/2025/06/12.jpg"},
         ],
         "attributes": attributes
     },
@@ -834,12 +932,14 @@ products = [
         "short_description": "Για όσους ξέρουν ότι μερικές φορές οι νόμοι της φύσης απλά δεν κάνουν διακρίσεις.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/14.jpg"},
-            {"src": f"{image_url}/15.jpg"},
+            {"src": f"{image_url}/2025/06/14.jpg"},
+            {"src": f"{image_url}/2025/06/15.jpg"},
         ],
         "attributes": attributes
     },
@@ -851,11 +951,13 @@ products = [
         "short_description": "Οδηγός χρήσης για όσους πιστεύουν ότι ένα μικρό σφάλμα δεν καταστρέφει το σύμπαν... μέχρι να το κάνει.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/19.jpg"},
+            {"src": f"{image_url}/2025/06/19.jpg"},
         ],
         "attributes": attributes
     },
@@ -867,11 +969,13 @@ products = [
         "short_description": "Όχι απλό γατάκι — η φωτιά που καίει... μέχρι να την πνίξεις με νερό.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/98.jpg"},
+            {"src": f"{image_url}/2025/06/98.jpg"},
         ],
         "attributes": attributes
     },
@@ -883,12 +987,14 @@ products = [
         "short_description": "Μικρός στο μέγεθος, αλλά έτοιμος να ταράξει τα νερά… ή τουλάχιστον να προσπαθήσει.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/38.jpg"},
-            {"src": f"{image_url}/39.jpg"},
+            {"src": f"{image_url}/2025/06/38.jpg"},
+            {"src": f"{image_url}/2025/06/39.jpg"},
         ],
         "attributes": attributes
     },
@@ -900,11 +1006,13 @@ products = [
         "short_description": "Η σοφία που κινείται με αργούς ρυθμούς — γιατί οι καλύτερες απαντήσεις έρχονται στο χρόνο τους.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/60.jpg"},
+            {"src": f"{image_url}/2025/06/60.jpg"},
         ],
         "attributes": attributes
     },
@@ -916,11 +1024,13 @@ products = [
         "short_description": "Η διαδρομή προς τη γνώση και την εσωτερική γαλήνη — ένα βήμα τη φορά.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/67.jpg"},
+            {"src": f"{image_url}/2025/06/67.jpg"},
         ],
         "attributes": attributes
     },
@@ -932,12 +1042,14 @@ products = [
         "short_description": "Όταν ξυπνάς και αποφασίζεις να αφήσεις τους άλλους να προσπαθούν... από μακριά.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/99.jpg"},
-            {"src": f"{image_url}/100.jpg"},
+            {"src": f"{image_url}/2025/06/99.jpg"},
+            {"src": f"{image_url}/2025/06/100.jpg"},
         ],
         "attributes": attributes
     },
@@ -949,11 +1061,13 @@ products = [
         "short_description": "Όταν πρέπει να πεις την αλήθεια, ακόμα κι αν κανείς δεν θέλει να την ακούσει.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/62.jpg"},
+            {"src": f"{image_url}/2025/06/62.jpg"},
         ],
         "attributes": attributes
     },
@@ -965,11 +1079,13 @@ products = [
         "short_description": "Μια διαδρομή γεμάτη προκλήσεις, όπου κάθε βήμα φωτίζει την επόμενη στροφή.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/101.jpg"},
+            {"src": f"{image_url}/2025/06/101.jpg"},
         ],
         "attributes": attributes
     },
@@ -981,11 +1097,13 @@ products = [
         "short_description": "Η κραυγή που ξυπνάει ήρωες… ή απλά ξεσηκώνει τον καναπέ.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/69.jpg"},
+            {"src": f"{image_url}/2025/06/69.jpg"},
         ],
         "attributes": attributes
     },
@@ -997,11 +1115,13 @@ products = [
         "short_description": "Η τέχνη που απαιτεί υπομονή, αποφασιστικότητα και λίγο... χάος.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/103.jpg"},
+            {"src": f"{image_url}/2025/06/103.jpg"},
         ],
         "attributes": attributes
     },
@@ -1013,11 +1133,13 @@ products = [
         "short_description": "Ένα ταξίδι σε κόσμους ονείρων όπου η παράδοση συναντά τη φαντασία.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/102.jpg"},
+            {"src": f"{image_url}/2025/06/102.jpg"},
         ],
         "attributes": attributes
     },
@@ -1029,11 +1151,13 @@ products = [
         "short_description": "Όταν το πιο πολύγλωσσο ρομπότ αποφασίζει να κάνει διακοπές... για πάντα.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/79.jpg"},
+            {"src": f"{image_url}/2025/06/79.jpg"},
         ],
         "attributes": attributes
     },
@@ -1045,11 +1169,13 @@ products = [
         "short_description": "Όταν δεν είσαι σίγουρος αν είσαι ρομπότ ή απλά μπερδεύεσαι με τις οδηγίες.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/78.jpg"},
+            {"src": f"{image_url}/2025/06/78.jpg"},
         ],
         "attributes": attributes
     },
@@ -1061,12 +1187,14 @@ products = [
         "short_description": "Όταν ψάχνεις την τύχη, αλλά βρίσκεις απλώς πολλές… εκπλήξεις.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/40.jpg"},
-            {"src": f"{image_url}/41.jpg"},
+            {"src": f"{image_url}/2025/06/40.jpg"},
+            {"src": f"{image_url}/2025/06/41.jpg"},
         ],
         "attributes": attributes
     },
@@ -1078,11 +1206,13 @@ products = [
         "short_description": "Για όσους ξέρουν ότι το παιχνίδι συνεχίζεται… ακόμα κι όταν όλα πάνε στραβά.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
         ],
         "images": [
-            {"src": f"{image_url}/57.jpg"},
+            {"src": f"{image_url}/2025/06/57.jpg"},
         ],
         "attributes": attributes
     },
@@ -1094,13 +1224,15 @@ products = [
         "short_description": "Όταν η “τελική ελπίδα της ανθρωπότητας” μοιάζει περισσότερο με ομαδική σύγχυση.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/31.jpg"},
-            {"src": f"{image_url}/32.jpg"},
+            {"src": f"{image_url}/2025/06/31.jpg"},
+            {"src": f"{image_url}/2025/06/32.jpg"},
         ],
         "attributes": attributes
     },
@@ -1112,11 +1244,13 @@ products = [
         "short_description": "Μικρό, πράσινο και με attitude — το φυτό που δεν θέλει πότισμα, μόνο χειροκρότημα.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/30.jpg"},
+            {"src": f"{image_url}/2025/06/30.jpg"},
         ],
         "attributes": attributes
     },
@@ -1128,11 +1262,13 @@ products = [
         "short_description": "Καταζητείται για υπερβολικό αυτοπεποίθηση, κακή στάθμευση και ατάκες που δεν τελειώνουν ποτέ.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/23.jpg"},
+            {"src": f"{image_url}/2025/06/23.jpg"},
         ],
         "attributes": attributes
     },
@@ -1144,11 +1280,13 @@ products = [
         "short_description": "Όταν ρίχνεις ατάκες στο διάστημα… αλλά κανείς δεν γελάει.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/20.jpg"},
+            {"src": f"{image_url}/2025/06/20.jpg"},
         ],
         "attributes": attributes
     },
@@ -1160,11 +1298,13 @@ products = [
         "short_description": "Ο πιο γλυκός της ομάδας, μέχρι να του πει κάποιος ότι δεν είναι στρατός εδώ.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/35.jpg"},
+            {"src": f"{image_url}/2025/06/35.jpg"},
         ],
         "attributes": attributes
     },
@@ -1176,11 +1316,13 @@ products = [
         "short_description": "Μισός μέταλλο, μισός εγωισμός, 100% άποψη. Μην του πεις να φορτίσει… το ξέρει ήδη.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/70.jpg"},
+            {"src": f"{image_url}/2025/06/70.jpg"},
         ],
         "attributes": attributes
     },
@@ -1192,12 +1334,367 @@ products = [
         "short_description": "Η μπάλα που υπόσχεται περιπέτεια, αλλά κυλάει κάτω από τον καναπέ όταν τη χρειάζεσαι περισσότερο.",
         "status": "publish",
         "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.CRANKY},
             {"id": Categories.T_SHIRTS},
             {"id": Categories.SERIES},
             {"id": Categories.MOVIES},
         ],
         "images": [
-            {"src": f"{image_url}/64.jpg"},
+            {"src": f"{image_url}/2025/06/64.jpg"},
+        ],
+        "attributes": attributes
+    },
+]
+fuck_up_nights_products = [
+    ############# FUCK UP NIGHTS
+    {
+        "name": "Failing with Style – Tyrion Edition",
+        "type": "simple",
+        "regular_price": "18.00",
+        "description": org_tee_description,
+        "short_description": "Για όσους αποτυγχάνουν με στυλ. Αν πρόκειται να τα κάνεις θάλασσα, κάν’ το θεαματικά. Ο Tyrion το είπε, εμείς το τυπώσαμε.",
+        "status": "publish",
+        "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.FUCK_UP_NIGHTS},
+            {"id": Categories.T_SHIRTS},
+            {"id": Categories.SERIES},
+        ],
+        "images": [
+            {"src": f"{image_url}/2025/07/104.jpg"},  # tshirt-back neck
+            {"src": f"{image_url}/2025/07/105.jpg"},  # tshirt-back neck
+        ],
+        "attributes": attributes
+    },
+    {
+        "name": "Doubt Slayer – Fail με την ησυχία σου",
+        "type": "simple",
+        "regular_price": "18.00",
+        "description": org_tee_description,
+        "short_description": "Η αποτυχία τουλάχιστον προσπαθεί. Η αμφιβολία κάθεται στον καναπέ και κάνει scroll. Μην είσαι αυτή η αμφιβολία. Αγόρασε τη μπλούζα. Ή όχι. Αλλά μετά μη γκρινιάζεις.",
+        "status": "publish",
+        "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.FUCK_UP_NIGHTS},
+            {"id": Categories.T_SHIRTS},
+        ],
+        "images": [
+            {"src": f"{image_url}/2025/07/104.jpg"},  # tshirt-back neck
+            {"src": f"{image_url}/2025/07/106.jpg"},  # tshirt-back neck
+        ],
+        "attributes": attributes
+    },
+    {
+        "name": "Bat-Fail – Άσε την πτώση, κοίτα το στυλ",
+        "type": "simple",
+        "regular_price": "18.00",
+        "description": org_tee_description,
+        "short_description": "Έπεσες; Μπράβο. Είσαι ένα βήμα πιο κοντά στο να γίνεις Batman. Γιατί, όπως είπε και ο Σκοτεινός Ιππότης, δεν είσαι η αποτυχία σου — είσαι η κίνηση μετά. Ξεκίνα με τη σωστή μπλούζα.",
+        "status": "publish",
+        "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.FUCK_UP_NIGHTS},
+            {"id": Categories.T_SHIRTS},
+            {"id": Categories.MOVIES},
+        ],
+        "images": [
+            {"src": f"{image_url}/2025/07/104.jpg"},  # tshirt-back neck
+            {"src": f"{image_url}/2025/07/107.jpg"},  # tshirt-back neck
+        ],
+        "attributes": attributes
+    },
+    {
+        "name": "Plan B Specialist – Failure is Always an Option",
+        "type": "simple",
+        "regular_price": "18.00",
+        "description": org_tee_description,
+        "short_description": "Για εσένα που δεν αποτυγχάνεις κατά λάθος — το έχεις στο πλάνο. Μερικοί βλέπουν εναλλακτικές, εσύ βλέπεις αδιέξοδο με στυλ. Και μπλούζα.",
+        "status": "publish",
+        "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.FUCK_UP_NIGHTS},
+            {"id": Categories.T_SHIRTS},
+        ],
+        "images": [
+            {"src": f"{image_url}/2025/07/104.jpg"},  # tshirt-back neck
+            {"src": f"{image_url}/2025/07/108.jpg"},  # tshirt-back neck
+        ],
+        "attributes": attributes
+    },
+    {
+        "name": "Keep Failing – Just Don’t Quit",
+        "type": "simple",
+        "regular_price": "18.00",
+        "description": org_tee_description,
+        "short_description": "Η αποτυχία δεν πειράζει. Το να τα παρατήσεις; Εγκληματικό. Αν είναι να χάσεις, κάν’ το με πείσμα και βαμβάκι 100%.",
+        "status": "publish",
+        "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.FUCK_UP_NIGHTS},
+            {"id": Categories.T_SHIRTS},
+        ],
+        "images": [
+            {"src": f"{image_url}/2025/07/104.jpg"},  # tshirt-back neck
+            {"src": f"{image_url}/2025/07/109.jpg"},  # tshirt-back neck
+        ],
+        "attributes": attributes
+    },
+    {
+        "name": "Chaos Mode: Activated",
+        "type": "simple",
+        "regular_price": "18.00",
+        "description": org_tee_description,
+        "short_description": "Κεφάλι ψηλά, στήθος έξω, και πάμε να τα διαλύσουμε όλα — με αυτοπεποίθηση και μπλουζάρα. Δεν είναι λάθος, είναι στυλ καταστροφής.",
+        "status": "publish",
+        "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.FUCK_UP_NIGHTS},
+            {"id": Categories.T_SHIRTS},
+        ],
+        "images": [
+            {"src": f"{image_url}/2025/07/104.jpg"},  # tshirt-back neck
+            {"src": f"{image_url}/2025/07/110.jpg"},  # tshirt-back neck
+        ],
+        "attributes": attributes
+    },
+    {
+        "name": "Certified Test Wrecker",
+        "type": "simple",
+        "regular_price": "18.00",
+        "description": org_tee_description,
+        "short_description": "Δεν απέτυχες. Απλώς έκανες έρευνα σε βάθος. 100 λάθη, μία μπλούζα, άπειρη αυτοπεποίθηση.",
+        "status": "publish",
+        "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.FUCK_UP_NIGHTS},
+            {"id": Categories.T_SHIRTS},
+        ],
+        "images": [
+            {"src": f"{image_url}/2025/07/104.jpg"},  # tshirt-back neck
+            {"src": f"{image_url}/2025/07/111.jpg"},  # tshirt-back neck
+        ],
+        "attributes": attributes
+    },
+    {
+        "name": "Gravity Enthusiast",
+        "type": "simple",
+        "regular_price": "18.00",
+        "description": org_tee_description,
+        "short_description": "Δεν έπεσες. Απλώς έδειξες λίγη αγάπη στο πάτωμα. Και τώρα δείξε λίγη και στο στυλ σου.",
+        "status": "publish",
+        "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.FUCK_UP_NIGHTS},
+            {"id": Categories.T_SHIRTS},
+        ],
+        "images": [
+            {"src": f"{image_url}/2025/07/104.jpg"},  # tshirt-back neck
+            {"src": f"{image_url}/2025/07/112.jpg"},  # tshirt-back neck
+        ],
+        "attributes": attributes
+    },
+    {
+        "name": "Witness of Epic Fails",
+        "type": "simple",
+        "regular_price": "18.00",
+        "description": org_tee_description,
+        "short_description": "Ήμουν εκεί όταν όλα πήγαν στραβά. Όχι γιατί μπορούσα να βοηθήσω — αλλά γιατί δεν χάνω τέτοιο θέαμα. Ο Elrond το είπε, εσύ το φοράς.",
+        "status": "publish",
+        "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.FUCK_UP_NIGHTS},
+            {"id": Categories.T_SHIRTS},
+            {"id": Categories.MOVIES},
+        ],
+        "images": [
+            {"src": f"{image_url}/2025/07/104.jpg"},  # tshirt-back neck
+            {"src": f"{image_url}/2025/07/113.jpg"},  # tshirt-back neck
+        ],
+        "attributes": attributes
+    },
+    {
+        "name": "Hit & Keep Going",
+        "type": "simple",
+        "regular_price": "18.00",
+        "description": org_tee_description,
+        "short_description": "Δεν μετράει πόσο χτυπάς, αλλά πόσο αντέχεις να χτυπηθείς και να προχωρήσεις. Όπως ο Rocky, έτσι κι εσύ — με στιλ και μπλούζα.",
+        "status": "publish",
+        "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.FUCK_UP_NIGHTS},
+            {"id": Categories.T_SHIRTS},
+            {"id": Categories.MOVIES},
+        ],
+        "images": [
+            {"src": f"{image_url}/2025/07/104.jpg"},  # tshirt-back neck
+            {"src": f"{image_url}/2025/07/114.jpg"},  # tshirt-back neck
+        ],
+        "attributes": attributes
+    },
+    {
+        "name": "Life’s Harsh Reality Tee",
+        "type": "simple",
+        "regular_price": "18.00",
+        "description": org_tee_description,
+        "short_description": "Η ζωή είναι σκύλα — και μετά πεθαίνεις. Τουλάχιστον φόρα κάτι που το λέει ξεκάθαρα.",
+        "status": "publish",
+        "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.FUCK_UP_NIGHTS},
+            {"id": Categories.T_SHIRTS},
+        ],
+        "images": [
+            {"src": f"{image_url}/2025/07/104.jpg"},  # tshirt-back neck
+            {"src": f"{image_url}/2025/07/115.jpg"},  # tshirt-back neck
+        ],
+        "attributes": attributes
+    },
+    {
+        "name": "Mistake Maker’s Club",
+        "type": "simple",
+        "regular_price": "18.00",
+        "description": org_tee_description,
+        "short_description": "Η ζωή είναι σκύλα — και μετά πεθαίνεις. Τουλάχιστον φόρα κάτι που το λέει ξεκάθαρα.",
+        "status": "publish",
+        "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.FUCK_UP_NIGHTS},
+            {"id": Categories.T_SHIRTS},
+            {"id": Categories.MOVIES},
+            {"id": Categories.GAMES},
+        ],
+        "images": [
+            {"src": f"{image_url}/2025/07/104.jpg"},  # tshirt-back neck
+            {"src": f"{image_url}/2025/07/116.jpg"},  # tshirt-back neck
+        ],
+        "attributes": attributes
+    },
+    {
+        "name": "Master of “Oops”",
+        "type": "simple",
+        "regular_price": "18.00",
+        "description": org_tee_description,
+        "short_description": "Η ζωή μου σε ένα μεγάλο «Ε, δεν πήγε όπως το σχεδίασα». Τουλάχιστον η μπλούζα μου το παραδέχεται.",
+        "status": "publish",
+        "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.FUCK_UP_NIGHTS},
+            {"id": Categories.T_SHIRTS},
+        ],
+        "images": [
+            {"src": f"{image_url}/2025/07/104.jpg"},  # tshirt-back neck
+            {"src": f"{image_url}/2025/07/117.jpg"},  # tshirt-back neck
+        ],
+        "attributes": attributes
+    },
+    {
+        "name": "Stress Ecology Survivor",
+        "type": "simple",
+        "regular_price": "18.00",
+        "description": org_tee_description,
+        "short_description": "Οι αποτυχίες μου μοιάζουν με τεστ που δεν διάβασα — θέμα: οικολογία, περιβάλλον: καθαρό στρες. Τουλάχιστον η μπλούζα αυτή είναι οικολογική.",
+        "status": "publish",
+        "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.FUCK_UP_NIGHTS},
+            {"id": Categories.T_SHIRTS},
+        ],
+        "images": [
+            {"src": f"{image_url}/2025/07/104.jpg"},  # tshirt-back neck
+            {"src": f"{image_url}/2025/07/118.jpg"},  # tshirt-back neck
+        ],
+        "attributes": attributes
+    },
+    {
+        "name": "No Risk, No Story",
+        "type": "simple",
+        "regular_price": "18.00",
+        "description": org_tee_description,
+        "short_description": "Χωρίς ρίσκο, δεν υπάρχει δόξα. Χωρίς αποτυχία, δεν υπάρχει ιστορία. Φόρα την ιστορία σου.",
+        "status": "publish",
+        "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.FUCK_UP_NIGHTS},
+            {"id": Categories.T_SHIRTS},
+        ],
+        "images": [
+            {"src": f"{image_url}/2025/07/104.jpg"},  # tshirt-back neck
+            {"src": f"{image_url}/2025/07/119.jpg"},  # tshirt-back neck
+        ],
+        "attributes": attributes
+    },
+    {
+        "name": "Success in Progress",
+        "type": "simple",
+        "regular_price": "18.00",
+        "description": org_tee_description,
+        "short_description": "Η αποτυχία είναι η επιτυχία σε εξέλιξη. Κάν’ το επίσημο με αυτήν τη μπλούζα.",
+        "status": "publish",
+        "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.FUCK_UP_NIGHTS},
+            {"id": Categories.T_SHIRTS},
+        ],
+        "images": [
+            {"src": f"{image_url}/2025/07/104.jpg"},  # tshirt-back neck
+            {"src": f"{image_url}/2025/07/120.jpg"},  # tshirt-back neck
+        ],
+        "attributes": attributes
+    },
+    {
+        "name": "Yoda’s Wisdom Tee",
+        "type": "simple",
+        "regular_price": "18.00",
+        "description": org_tee_description,
+        "short_description": "«Ο μεγαλύτερος δάσκαλος, η αποτυχία είναι!» — Yoda το είπε, εσύ το φοράς. Μάθε με στυλ.",
+        "status": "publish",
+        "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.FUCK_UP_NIGHTS},
+            {"id": Categories.T_SHIRTS},
+        ],
+        "images": [
+            {"src": f"{image_url}/2025/07/104.jpg"},  # tshirt-back neck
+            {"src": f"{image_url}/2025/07/121.jpg"},  # tshirt-back neck
+        ],
+        "attributes": attributes
+    },
+    {
+        "name": "Past Lessons",
+        "type": "simple",
+        "regular_price": "18.00",
+        "description": org_tee_description,
+        "short_description": "Το παρελθόν σου υπάρχει — δεν το τρέχεις μαθαίνεις απ’ αυτό. Ο Alucard το ξέρει, εσύ το φοράς.",
+        "status": "publish",
+        "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.FUCK_UP_NIGHTS},
+            {"id": Categories.T_SHIRTS},
+            {"id": Categories.SERIES},
+            {"id": Categories.GAMES},
+        ],
+        "images": [
+            {"src": f"{image_url}/2025/07/104.jpg"},  # tshirt-back neck
+            {"src": f"{image_url}/2025/07/122.jpg"},  # tshirt-back neck
+        ],
+        "attributes": attributes
+    },
+    {
+        "name": "Volunteer Vibes",
+        "type": "simple",
+        "regular_price": "18.00",
+        "description": org_tee_description,
+        "short_description": "Δεν πληρώνεσαι, αλλά κερδίζεις karma και μπλουζάρα. Για όσους κάνουν το καλό… και το δείχνουν.",
+        "status": "publish",
+        "categories": [
+            {"id": Categories.ECO},
+            {"id": Categories.FUCK_UP_NIGHTS},
+            {"id": Categories.T_SHIRTS},
+        ],
+        "images": [
+            {"src": f"{image_url}/2025/07/104.jpg"},  # tshirt-back neck
+            {"src": f"{image_url}/2025/07/123.jpg"},  # tshirt-back neck
         ],
         "attributes": attributes
     }

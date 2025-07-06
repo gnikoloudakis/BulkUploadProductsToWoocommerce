@@ -2,7 +2,7 @@ import os
 
 from dotenv import load_dotenv
 
-from products import products
+from products import products, fuck_up_nights_products
 
 load_dotenv()
 import requests
@@ -14,7 +14,8 @@ consumer_key = os.getenv('CONSUMER_KEY')
 consumer_secret = os.getenv('CONSUMER_SECRET')
 failures = []
 # Bulk upload
-for product in products:
+all_products = [*products, *fuck_up_nights_products]
+for product in all_products:
     # ✅ ADDED: Check if product already exists by name
     search_url = f"{url}?search={product['name']}"
     search_response = requests.get(search_url, auth=(consumer_key, consumer_secret))
